@@ -15,10 +15,18 @@ This project demonstrates customer segmentation using clustering techniques, lev
 - **Visualization:** Clear plots showcasing customer clusters.
 
 ## **Repository Structure**
-- **`Customers.csv` & `Transactions.csv`:** Input datasets containing customer profiles and transaction data.
-- **`customer_segmentation.ipynb`:** Jupyter Notebook containing the full implementation of customer segmentation, including data preprocessing, clustering, and visualization.
-- **`Lookalike.csv`:** Output from the second task, mapping customer IDs to their lookalikes with similarity scores.
-- **Reports:** Summary of clustering results, including optimal clusters, DBI, and Silhouette scores.
+- **Notebooks and Scripts**:
+  - `Drishti_Agarwalla_EDA.ipynb`: Jupyter Notebook for Exploratory Data Analysis (EDA), showcasing data cleaning, preprocessing, and insights extraction.
+  - `Drishti_Agarwalla_Lookalike.ipynb`: Jupyter Notebook for the Lookalike Model, which recommends similar customers based on profile and transaction history.
+  - `Drishti_Agarwalla_Clustering.ipynb`: Jupyter Notebook for Customer Segmentation using clustering algorithms, including evaluation metrics and visualizations.
+
+- **Reports**:
+  - `Drishti_Agarwalla_EDA.pdf`: PDF report summarizing the EDA process and key insights.
+  - `Drishti_Agarwalla_Clustering.pdf`: PDF report summarizing clustering results, including DBI, Silhouette scores, and visualizations.
+
+- **Outputs**:
+  - `Drishti_Agarwalla_Lookalike.csv`: Output of the Lookalike Model, mapping CustomerID to their lookalikes with similarity scores.
+
 
 ## **Clustering Results**
 - **Optimal number of clusters:** 8
